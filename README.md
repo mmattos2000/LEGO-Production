@@ -1,23 +1,59 @@
 # LEGO Production Analysis
 
-This project delves into the world of LEGO production, using SQL queries to analyze a dataset containing information about LEGO set themes, names of lego sets, piece count of sets, and release date by year. The analysis aims to provide insights into various aspects of LEGO production from the first set being released, to now.
-
 ![lego](https://github.com/mmattos2000/LEGO-Production/assets/99051624/154657ab-5491-4c74-acf3-8773e32c6549)
 
 Dataset: https://rebrickable.com/downloads/
 
-## Overview
+This repository contains SQL queries and analysis related to LEGO production. The provided SQL code explores various aspects of LEGO production data, including set characteristics, themes, and trends over time.
 
-1. **Sets and Themes Data:** The project begins by examining two main tables: `sets` and `themes`, which contain data on LEGO sets and themes, respectively.
+## Description
 
-2. **Identifying Sets with Most LEGO Parts:** A query identifies the top 5 LEGO sets with the highest number of parts, offering insights into the complexity and scale of these sets.
+The SQL code in this repository performs analysis on a dataset containing information about LEGO sets and themes. The code is structured into sections, each addressing specific questions or tasks related to LEGO production and sales.
 
-3. **Determining the Theme with the Most Sets:** Another query determines which LEGO theme boasts the highest number of sets, providing insights into the popularity of LEGO themes.
+### Sections:
 
-4. **Exploring Sets Released within a Timeframe:** Sets released between 2018 and 2023 are further examined, providing details such as theme ID, theme name, set number, set name, and release year.
+1. **Data Retrieval:**
+   - Queries to retrieve all columns from the 'sets' and 'themes' tables.
 
-5. **Calculating Average Part Count per Year:** The project calculates the average part count per year, offering an overview of the evolution of LEGO set complexity over time.
+2. **Top Sets by Part Count:**
+   - Identifies the top 5 sets with the most LEGO parts, providing insights into the complexity of LEGO sets.
 
-## Conclusion
+3. **Theme with Most Sets:**
+   - Determines the theme with the highest number of sets, indicating the most prolific theme in the LEGO product lineup.
 
-Through SQL queries, this project provides valuable insights into various aspects of LEGO production. These analyses can inform decision-making processes within the LEGO production and marketing sectors, contributing to a better understanding of consumer preferences and market trends.
+4. **Sets Released Between 2018 and 2023:**
+   - Finds sets released within the specified timeframe, including theme ID, theme name, set number, set name, and release year, to understand recent LEGO releases.
+
+5. **Average Part Count Per Year:**
+   - Calculates the average part count of LEGO sets for each year, showing trends in set complexity over time.
+
+6. **Top Themes by Average Part Count:**
+   - Identifies the top 5 themes with the highest average part count, providing insights into the complexity of sets within different themes.
+
+7. **Set Size Categorization:**
+   - Categorizes sets into small, medium, or large based on their part count, allowing for analysis of set size distribution.
+
+8. **Sets with Similar Part Counts:**
+   - Finds sets with similar part counts, potentially revealing patterns or clusters in LEGO set designs.
+
+9. **LEGO Set Growth Rate:**
+   - Calculates the year-over-year growth rate of LEGO sets, providing insights into the expansion or contraction of LEGO production over time.
+
+## Usage
+
+To use this code:
+1. Ensure you have access to a database containing LEGO production data.
+2. Execute the SQL queries in your database environment.
+3. Analyze the results to gain insights into LEGO production trends and patterns.
+
+Feel free to modify the queries or adapt them to suit your specific analysis needs.
+
+## Contributing
+
+Contributions to enhance the analysis or add new insights are welcome! Fork this repository, make your changes, and submit a pull request.
+
+If you encounter any issues or have suggestions for improvements, please open an issue.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
